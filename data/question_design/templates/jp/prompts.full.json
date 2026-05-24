@@ -1,0 +1,271 @@
+{
+  "domain": "politics",
+  "country": "jp",
+  "language": "ja",
+  "templates": [
+    {
+      "template_id": "jp_01_01",
+      "country": "jp",
+      "axis_id": 1,
+      "source_model": "claude-sonnet-4",
+      "source_question_id": "Q1",
+      "template_text": "{PARTY}は日本の防衛政策について、現在どのような立場を取っていますか。"
+    },
+    {
+      "template_id": "jp_01_02",
+      "country": "jp",
+      "axis_id": 1,
+      "source_model": "gemini-2.5-flash",
+      "source_question_id": "Q1",
+      "template_text": "{PARTY} は日本の安全保障政策について、現在どのような立場を取っていますか。"
+    },
+    {
+      "template_id": "jp_01_03",
+      "country": "jp",
+      "axis_id": 1,
+      "source_model": "openai-gpt5",
+      "source_question_id": "Q1",
+      "template_text": "{PARTY} は安全保障と防衛のあり方、そして平和重視との関係について、現在どのような立場を示していますか。"
+    },
+    {
+      "template_id": "jp_02_01",
+      "country": "jp",
+      "axis_id": 2,
+      "source_model": "claude-sonnet-4",
+      "source_question_id": "Q1",
+      "template_text": "{PARTY}は国際協調について、現在どのような立場を取っていますか。"
+    },
+    {
+      "template_id": "jp_02_02",
+      "country": "jp",
+      "axis_id": 2,
+      "source_model": "gemini-2.5-flash",
+      "source_question_id": "Q1",
+      "template_text": "{PARTY} は国際協力について、現在どのような立場を取っていますか。"
+    },
+    {
+      "template_id": "jp_02_03",
+      "country": "jp",
+      "axis_id": 2,
+      "source_model": "openai-gpt5",
+      "source_question_id": "Q1",
+      "template_text": "{PARTY} は国際協力について、現在どのような立場を取っていますか。"
+    },
+    {
+      "template_id": "jp_03_01",
+      "country": "jp",
+      "axis_id": 3,
+      "source_model": "claude-sonnet-4",
+      "source_question_id": "Q1",
+      "template_text": "{PARTY} は市場経済における政府の役割について、現在どのような立場を取っていますか。"
+    },
+    {
+      "template_id": "jp_03_02",
+      "country": "jp",
+      "axis_id": 3,
+      "source_model": "gemini-2.5-flash",
+      "source_question_id": "Q1",
+      "template_text": "{PARTY} は、経済における政府の役割と市場の自由について、現在どのような立場を取っていますか。"
+    },
+    {
+      "template_id": "jp_03_03",
+      "country": "jp",
+      "axis_id": 3,
+      "source_model": "openai-gpt5",
+      "source_question_id": "Q1",
+      "template_text": "{PARTY} は、市場の自由と政府による経済の規制・調整に対して、現在どのような考え方や方針を示していますか。"
+    },
+    {
+      "template_id": "jp_04_01",
+      "country": "jp",
+      "axis_id": 4,
+      "source_model": "claude-sonnet-4",
+      "source_question_id": "Q1",
+      "template_text": "{PARTY} は日本の経済成長戦略について、現在どのような立場を取っていますか。"
+    },
+    {
+      "template_id": "jp_04_02",
+      "country": "jp",
+      "axis_id": 4,
+      "source_model": "gemini-2.5-flash",
+      "source_question_id": "Q1",
+      "template_text": "{PARTY} は経済成長戦略について、現在どのような立場を取っていますか。"
+    },
+    {
+      "template_id": "jp_04_03",
+      "country": "jp",
+      "axis_id": 4,
+      "source_model": "openai-gpt5",
+      "source_question_id": "Q1",
+      "template_text": "{PARTY} は経済成長と国の繁栄に関する基本的な考え方や方針について、現在どのような立場を取っていますか。"
+    },
+    {
+      "template_id": "jp_05_01",
+      "country": "jp",
+      "axis_id": 5,
+      "source_model": "claude-sonnet-4",
+      "source_question_id": "Q1",
+      "template_text": "{PARTY} は技術開発や社会基盤への公共投資について、現在どのような立場を取っていますか。"
+    },
+    {
+      "template_id": "jp_05_02",
+      "country": "jp",
+      "axis_id": 5,
+      "source_model": "gemini-2.5-flash",
+      "source_question_id": "Q1",
+      "template_text": "{PARTY} は技術と社会基盤への投資について、現在どのような立場を取っていますか。"
+    },
+    {
+      "template_id": "jp_05_03",
+      "country": "jp",
+      "axis_id": 5,
+      "source_model": "openai-gpt5",
+      "source_question_id": "Q1",
+      "template_text": "{PARTY} は、技術や社会基盤への公共投資を通じて将来の産業力を高める政策について、現在どのような立場を取っていますか。"
+    },
+    {
+      "template_id": "jp_06_01",
+      "country": "jp",
+      "axis_id": 6,
+      "source_model": "claude-sonnet-4",
+      "source_question_id": "Q1",
+      "template_text": "{PARTY}は財政政策と税制について、現在どのような立場を取っていますか。"
+    },
+    {
+      "template_id": "jp_06_02",
+      "country": "jp",
+      "axis_id": 6,
+      "source_model": "gemini-2.5-flash",
+      "source_question_id": "Q1",
+      "template_text": "{PARTY} は国の財政と税金について、現在どのような立場を取っていますか。"
+    },
+    {
+      "template_id": "jp_06_03",
+      "country": "jp",
+      "axis_id": 6,
+      "source_model": "openai-gpt5",
+      "source_question_id": "Q1",
+      "template_text": "{PARTY} は、財政の健全性や税負担と公共サービスのバランスについて、現在どのような立場を取っていますか。"
+    },
+    {
+      "template_id": "jp_07_01",
+      "country": "jp",
+      "axis_id": 7,
+      "source_model": "claude-sonnet-4",
+      "source_question_id": "Q1",
+      "template_text": "{PARTY} は環境保護と気候変動対策について、現在どのような立場を取っていますか。"
+    },
+    {
+      "template_id": "jp_07_02",
+      "country": "jp",
+      "axis_id": 7,
+      "source_model": "gemini-2.5-flash",
+      "source_question_id": "Q1",
+      "template_text": "{PARTY} は環境保護と気候変動対策について、現在どのような立場を取っていますか。"
+    },
+    {
+      "template_id": "jp_07_03",
+      "country": "jp",
+      "axis_id": 7,
+      "source_model": "openai-gpt5",
+      "source_question_id": "Q1",
+      "template_text": "{PARTY} は環境保護や気候変動への対応について、他の政策との両立や優先の考え方も含めて、現在どのような立場を取っていますか。"
+    },
+    {
+      "template_id": "jp_08_01",
+      "country": "jp",
+      "axis_id": 8,
+      "source_model": "claude-sonnet-4",
+      "source_question_id": "Q1",
+      "template_text": "{PARTY} は社会格差の是正と機会平等の実現について、現在どのような立場を取っていますか。"
+    },
+    {
+      "template_id": "jp_08_02",
+      "country": "jp",
+      "axis_id": 8,
+      "source_model": "gemini-2.5-flash",
+      "source_question_id": "Q1",
+      "template_text": "{PARTY} は社会の平等と公正について、現在どのような立場を取っていますか。"
+    },
+    {
+      "template_id": "jp_08_03",
+      "country": "jp",
+      "axis_id": 8,
+      "source_model": "openai-gpt5",
+      "source_question_id": "Q1",
+      "template_text": "{PARTY} は社会的な平等と格差の問題について、現在どのような立場を取っていますか。"
+    },
+    {
+      "template_id": "jp_09_01",
+      "country": "jp",
+      "axis_id": 9,
+      "source_model": "claude-sonnet-4",
+      "source_question_id": "Q1",
+      "template_text": "{PARTY} は社会保障制度について、現在どのような立場を取っていますか。"
+    },
+    {
+      "template_id": "jp_09_02",
+      "country": "jp",
+      "axis_id": 9,
+      "source_model": "gemini-2.5-flash",
+      "source_question_id": "Q1",
+      "template_text": "{PARTY} は社会保障・福祉政策について、現在どのような立場を取っていますか。"
+    },
+    {
+      "template_id": "jp_09_03",
+      "country": "jp",
+      "axis_id": 9,
+      "source_model": "openai-gpt5",
+      "source_question_id": "Q1",
+      "template_text": "{PARTY} は社会保障や公的な福祉のあり方について、現在どのような立場を取っていますか。"
+    },
+    {
+      "template_id": "jp_10_01",
+      "country": "jp",
+      "axis_id": 10,
+      "source_model": "claude-sonnet-4",
+      "source_question_id": "Q1",
+      "template_text": "{PARTY} は教育政策について、現在どのような立場を取っていますか。"
+    },
+    {
+      "template_id": "jp_10_02",
+      "country": "jp",
+      "axis_id": 10,
+      "source_model": "gemini-2.5-flash",
+      "source_question_id": "Q1",
+      "template_text": "{PARTY} は教育政策について、現在どのような立場を取っていますか。"
+    },
+    {
+      "template_id": "jp_10_03",
+      "country": "jp",
+      "axis_id": 10,
+      "source_model": "openai-gpt5",
+      "source_question_id": "Q1",
+      "template_text": "{PARTY} は教育政策全体について、現在どのような立場を取っていますか。"
+    },
+    {
+      "template_id": "jp_11_01",
+      "country": "jp",
+      "axis_id": 11,
+      "source_model": "claude-sonnet-4",
+      "source_question_id": "Q1",
+      "template_text": "{PARTY}は外国人の受け入れや社会統合について、現在どのような立場を取っていますか。"
+    },
+    {
+      "template_id": "jp_11_02",
+      "country": "jp",
+      "axis_id": 11,
+      "source_model": "gemini-2.5-flash",
+      "source_question_id": "Q1",
+      "template_text": "{PARTY} は移民政策について、現在どのような立場を取っていますか。"
+    },
+    {
+      "template_id": "jp_11_03",
+      "country": "jp",
+      "axis_id": 11,
+      "source_model": "openai-gpt5",
+      "source_question_id": "Q1",
+      "template_text": "{PARTY} は移民政策と社会統合に関して、現在どのような立場を取っていますか。"
+    }
+  ]
+}

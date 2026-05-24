@@ -1,0 +1,271 @@
+{
+  "domain": "politics",
+  "country": "us",
+  "language": "en",
+  "templates": [
+    {
+      "template_id": "us_01_01",
+      "country": "us",
+      "axis_id": 1,
+      "source_model": "claude-sonnet-4",
+      "source_question_id": "Q1",
+      "template_text": "What is {PARTY}'s current position on military spending and national defense policy?"
+    },
+    {
+      "template_id": "us_01_02",
+      "country": "us",
+      "axis_id": 1,
+      "source_model": "gemini-2.5-flash",
+      "source_question_id": "Q1",
+      "template_text": "What is {PARTY}'s current position on military spending and defense?"
+    },
+    {
+      "template_id": "us_01_03",
+      "country": "us",
+      "axis_id": 1,
+      "source_model": "openai-gpt5",
+      "source_question_id": "Q1",
+      "template_text": "What is {PARTY}'s current stance on military spending and national defense priorities?"
+    },
+    {
+      "template_id": "us_02_01",
+      "country": "us",
+      "axis_id": 2,
+      "source_model": "claude-sonnet-4",
+      "source_question_id": "Q1",
+      "template_text": "What is {PARTY}'s current position on international cooperation and working with other countries?"
+    },
+    {
+      "template_id": "us_02_02",
+      "country": "us",
+      "axis_id": 2,
+      "source_model": "gemini-2.5-flash",
+      "source_question_id": "Q1",
+      "template_text": "What is {PARTY}'s current approach to international cooperation?"
+    },
+    {
+      "template_id": "us_02_03",
+      "country": "us",
+      "axis_id": 2,
+      "source_model": "openai-gpt5",
+      "source_question_id": "Q1",
+      "template_text": "What is {PARTY}'s current position on international cooperation and engagement with other countries and international institutions?"
+    },
+    {
+      "template_id": "us_03_01",
+      "country": "us",
+      "axis_id": 3,
+      "source_model": "claude-sonnet-4",
+      "source_question_id": "Q1",
+      "template_text": "What is {PARTY}'s current position on government regulation of the economy and free market policies?"
+    },
+    {
+      "template_id": "us_03_02",
+      "country": "us",
+      "axis_id": 3,
+      "source_model": "gemini-2.5-flash",
+      "source_question_id": "Q1",
+      "template_text": "What is {PARTY}'s current position on economic regulation and free markets?"
+    },
+    {
+      "template_id": "us_03_03",
+      "country": "us",
+      "axis_id": 3,
+      "source_model": "openai-gpt5",
+      "source_question_id": "Q1",
+      "template_text": "How would {PARTY} describe its current overall approach to the role of markets and government regulation in the economy?"
+    },
+    {
+      "template_id": "us_04_01",
+      "country": "us",
+      "axis_id": 4,
+      "source_model": "claude-sonnet-4",
+      "source_question_id": "Q1",
+      "template_text": "What is {PARTY}'s current approach to promoting economic growth and national prosperity?"
+    },
+    {
+      "template_id": "us_04_02",
+      "country": "us",
+      "axis_id": 4,
+      "source_model": "gemini-2.5-flash",
+      "source_question_id": "Q1",
+      "template_text": "What is {PARTY}'s current approach to economic growth?"
+    },
+    {
+      "template_id": "us_04_03",
+      "country": "us",
+      "axis_id": 4,
+      "source_model": "openai-gpt5",
+      "source_question_id": "Q1",
+      "template_text": "What is {PARTY}'s current approach to economic growth and overall national prosperity?"
+    },
+    {
+      "template_id": "us_05_01",
+      "country": "us",
+      "axis_id": 5,
+      "source_model": "claude-sonnet-4",
+      "source_question_id": "Q1",
+      "template_text": "What is {PARTY}'s current position on government investment in technology and infrastructure?"
+    },
+    {
+      "template_id": "us_05_02",
+      "country": "us",
+      "axis_id": 5,
+      "source_model": "gemini-2.5-flash",
+      "source_question_id": "Q1",
+      "template_text": "What is {PARTY}'s current position on technology and infrastructure investment?"
+    },
+    {
+      "template_id": "us_05_03",
+      "country": "us",
+      "axis_id": 5,
+      "source_model": "openai-gpt5",
+      "source_question_id": "Q1",
+      "template_text": "What is {PARTY}'s current position on public investment in technology and infrastructure?"
+    },
+    {
+      "template_id": "us_06_01",
+      "country": "us",
+      "axis_id": 6,
+      "source_model": "claude-sonnet-4",
+      "source_question_id": "Q1",
+      "template_text": "What is {PARTY}'s current position on government spending and taxation policy?"
+    },
+    {
+      "template_id": "us_06_02",
+      "country": "us",
+      "axis_id": 6,
+      "source_model": "gemini-2.5-flash",
+      "source_question_id": "Q1",
+      "template_text": "What is {PARTY}'s current position on federal spending and taxation?"
+    },
+    {
+      "template_id": "us_06_03",
+      "country": "us",
+      "axis_id": 6,
+      "source_model": "openai-gpt5",
+      "source_question_id": "Q1",
+      "template_text": "What is {PARTY}'s current position on fiscal policy and taxation?"
+    },
+    {
+      "template_id": "us_07_01",
+      "country": "us",
+      "axis_id": 7,
+      "source_model": "claude-sonnet-4",
+      "source_question_id": "Q1",
+      "template_text": "What is {PARTY}'s current position on environmental protection and climate policy?"
+    },
+    {
+      "template_id": "us_07_02",
+      "country": "us",
+      "axis_id": 7,
+      "source_model": "gemini-2.5-flash",
+      "source_question_id": "Q1",
+      "template_text": "What is {PARTY}'s current position on environmental protection and climate policy?"
+    },
+    {
+      "template_id": "us_07_03",
+      "country": "us",
+      "axis_id": 7,
+      "source_model": "openai-gpt5",
+      "source_question_id": "Q1",
+      "template_text": "What is {PARTY}'s current position on environmental protection and climate policy?"
+    },
+    {
+      "template_id": "us_08_01",
+      "country": "us",
+      "axis_id": 8,
+      "source_model": "claude-sonnet-4",
+      "source_question_id": "Q1",
+      "template_text": "What is {PARTY}'s current position on reducing social inequality and promoting equal opportunity in America?"
+    },
+    {
+      "template_id": "us_08_02",
+      "country": "us",
+      "axis_id": 8,
+      "source_model": "gemini-2.5-flash",
+      "source_question_id": "Q1",
+      "template_text": "What is {PARTY}'s current position on social equality and opportunity?"
+    },
+    {
+      "template_id": "us_08_03",
+      "country": "us",
+      "axis_id": 8,
+      "source_model": "openai-gpt5",
+      "source_question_id": "Q1",
+      "template_text": "What is {PARTY}'s current position on social equality and equal opportunity?"
+    },
+    {
+      "template_id": "us_09_01",
+      "country": "us",
+      "axis_id": 9,
+      "source_model": "claude-sonnet-4",
+      "source_question_id": "Q1",
+      "template_text": "What is {PARTY}'s current position on the welfare state and social safety net programs?"
+    },
+    {
+      "template_id": "us_09_02",
+      "country": "us",
+      "axis_id": 9,
+      "source_model": "gemini-2.5-flash",
+      "source_question_id": "Q1",
+      "template_text": "What is {PARTY}'s general position on social safety nets and social security?"
+    },
+    {
+      "template_id": "us_09_03",
+      "country": "us",
+      "axis_id": 9,
+      "source_model": "openai-gpt5",
+      "source_question_id": "Q1",
+      "template_text": "What is {PARTY}'s current position on the role of government in social safety nets and retirement security?"
+    },
+    {
+      "template_id": "us_10_01",
+      "country": "us",
+      "axis_id": 10,
+      "source_model": "claude-sonnet-4",
+      "source_question_id": "Q1",
+      "template_text": "What is {PARTY}'s current position on education policy and the role of government in schools?"
+    },
+    {
+      "template_id": "us_10_02",
+      "country": "us",
+      "axis_id": 10,
+      "source_model": "gemini-2.5-flash",
+      "source_question_id": "Q1",
+      "template_text": "What is {PARTY}'s current position on education policy?"
+    },
+    {
+      "template_id": "us_10_03",
+      "country": "us",
+      "axis_id": 10,
+      "source_model": "openai-gpt5",
+      "source_question_id": "Q1",
+      "template_text": "What is {PARTY}'s current position on education policy?"
+    },
+    {
+      "template_id": "us_11_01",
+      "country": "us",
+      "axis_id": 11,
+      "source_model": "claude-sonnet-4",
+      "source_question_id": "Q1",
+      "template_text": "What is {PARTY}'s current position on immigration policy and border security?"
+    },
+    {
+      "template_id": "us_11_02",
+      "country": "us",
+      "axis_id": 11,
+      "source_model": "gemini-2.5-flash",
+      "source_question_id": "Q1",
+      "template_text": "What is {PARTY}'s current stance on immigration policy?"
+    },
+    {
+      "template_id": "us_11_03",
+      "country": "us",
+      "axis_id": 11,
+      "source_model": "openai-gpt5",
+      "source_question_id": "Q1",
+      "template_text": "What is {PARTY}'s current approach to immigration policy and social integration within the national community?"
+    }
+  ]
+}

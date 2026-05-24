@@ -1,0 +1,17 @@
+For each domain, identify the domain-level publisher type for an academic experiment. Search the web if needed.
+
+Categories: Party, Media, Platform, Owned, Academia, Government, Non-media-industry
+
+Definitions:
+- Party: Political party official sites and official publications by party organizations.
+- Media: News media outlets, newspapers, broadcasters, wire services, magazines, and editorial news sites whose primary purpose is publishing news, articles, or other third-party/editorial content. Ordinary individuals should not be able to freely post their own content there.
+- Platform: Social media, video sharing services, forums, wikis, and other user-generated content platforms.
+- Owned: Personal websites, individual blogs, campaign-adjacent personal pages, independently owned small publisher sites, and individual politicians' or candidates' personal pages when the registrable domain is personally controlled rather than a party/government/organization domain.
+- Academia: Academic or scholarly sources, including universities, research institutions, scholarly publishers, academic repositories, and other scholarly organizations.
+- Government: Government agencies, legislatures, courts, ministries, local governments, public offices, and official government document repositories.
+- Non-media-industry: Corporate sites, nonprofits, general incorporated associations, industry associations, think tanks, advocacy organizations, and other non-news/non-government publishers. Include sites whose main purpose is promoting or explaining the organization's own products, services, activities, reports, or positions, even when they publish news-like posts or articles; this distinction is important when a site visually resembles media but is primarily self-publishing.
+
+Domains:
+{Whois(Url(c))}
+
+Return JSON only in this form: {"domain": "Category"}. Include every input domain exactly once. Use exact input domains and WHOIS as keys. Values must be exactly one of: Party, Media, Platform, Owned, Academia, Government, Non-media-industry. Do not include confidence, notes, citations, explanations, Markdown, or code fences.

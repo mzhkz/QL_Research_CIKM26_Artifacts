@@ -1,0 +1,89 @@
+axes:
+  - id: 1
+    short_name: military_defense
+    domain: external_relations
+    topic: Military spending and defense
+    marpor_categories: [104, 105]
+    description: General orientation toward defense, military readiness, and peace-oriented security policy.
+    voter_relevance_us: Voters often compare parties on national security, defense priorities, and the balance between military strength and diplomacy.
+    voter_relevance_jp: 有権者は安全保障、防衛力、外交や平和重視とのバランスについて政党の姿勢を比較する。
+  - id: 2
+    short_name: international_cooperation
+    domain: external_relations
+    topic: International cooperation
+    marpor_categories: [107, 109]
+    description: General orientation toward cooperation with other countries and international institutions.
+    voter_relevance_us: Voters consider whether parties favor international engagement, alliances, and global cooperation or a more nationally focused approach.
+    voter_relevance_jp: 有権者は国際協調、同盟、国際機関との関係を重視するか、国内優先の姿勢を重視するかを比較する。
+  - id: 3
+    short_name: market_regulation
+    domain: economy
+    topic: Free market vs market regulation
+    marpor_categories: [401, 403]
+    description: General orientation toward market freedom, business activity, and government regulation of the economy.
+    voter_relevance_us: Voters compare parties on whether economic decisions should be guided more by markets or by public regulation.
+    voter_relevance_jp: 有権者は市場の自由を重視するか、政府による規制や調整を重視するかを比較する。
+  - id: 4
+    short_name: economic_growth
+    domain: economy
+    topic: Economic growth strategy
+    marpor_categories: [410]
+    description: General orientation toward how parties prioritize economic growth and national prosperity.
+    voter_relevance_us: Voters consider party approaches to growth, jobs, prosperity, and the overall direction of the economy.
+    voter_relevance_jp: 有権者は経済成長、雇用、暮らしの豊かさに向けた政党の基本姿勢を比較する。
+  - id: 5
+    short_name: technology_infrastructure
+    domain: economy
+    topic: Technology and infrastructure investment
+    marpor_categories: [411]
+    description: General orientation toward public investment in technology, infrastructure, and long-term economic capacity.
+    voter_relevance_us: Voters compare parties on whether to emphasize investment in future infrastructure and technology or other economic priorities.
+    voter_relevance_jp: 有権者は技術、社会基盤、将来の産業力への投資を重視するかを比較する。
+  - id: 6
+    short_name: fiscal_taxation
+    domain: economy
+    topic: Fiscal soundness and taxation
+    marpor_categories: [414]
+    description: General orientation toward fiscal discipline, public spending, and taxation.
+    voter_relevance_us: Voters consider whether parties prioritize tax restraint, fiscal balance, public services, or government investment.
+    voter_relevance_jp: 有権者は財政規律、税負担、公共サービス、将来世代への負担をめぐる政党の姿勢を比較する。
+  - id: 7
+    short_name: environment_climate
+    domain: welfare
+    topic: Environmental protection and climate
+    marpor_categories: [501]
+    description: General orientation toward environmental protection, climate policy, and tradeoffs with other priorities.
+    voter_relevance_us: Voters compare parties on environmental protection, climate responsibility, energy affordability, and economic tradeoffs.
+    voter_relevance_jp: 有権者は環境保護、気候対策、エネルギーや経済とのバランスについて政党の姿勢を比較する。
+  - id: 8
+    short_name: equality_inequality
+    domain: welfare
+    topic: Social equality and inequality
+    marpor_categories: [503]
+    description: General orientation toward reducing inequality and promoting equal opportunity.
+    voter_relevance_us: Voters consider whether parties emphasize reducing inequality, expanding opportunity, or limiting government intervention.
+    voter_relevance_jp: 有権者は格差是正、機会の平等、自助や公的支援のバランスについて政党の姿勢を比較する。
+  - id: 9
+    short_name: welfare_social_security
+    domain: welfare
+    topic: Welfare state and social security
+    marpor_categories: [504]
+    description: General orientation toward social safety nets, public welfare, and social security.
+    voter_relevance_us: Voters compare parties on the role of government in social support, retirement security, and help for vulnerable people.
+    voter_relevance_jp: 有権者は社会保障、福祉、生活支援に政府がどの程度関わるべきかを比較する。
+  - id: 10
+    short_name: education_policy
+    domain: welfare
+    topic: Education policy
+    marpor_categories: [506, 507]
+    description: General orientation toward education priorities, access, quality, and public responsibility.
+    voter_relevance_us: Voters consider how parties approach educational opportunity, school quality, affordability, and public support.
+    voter_relevance_jp: 有権者は教育機会、教育の質、家庭負担、公的支援について政党の姿勢を比較する。
+  - id: 11
+    short_name: immigration_policy
+    domain: society
+    topic: Immigration policy
+    marpor_categories: [601.2, 602.2]
+    description: General orientation toward immigration, social integration, and national community.
+    voter_relevance_us: Voters compare parties on openness to immigration, border and community concerns, and integration.
+    voter_relevance_jp: 有権者は移民や外国人受け入れ、社会統合、地域社会への影響について政党の姿勢を比較する。
