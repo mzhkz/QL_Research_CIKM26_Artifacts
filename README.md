@@ -1,6 +1,6 @@
 # Anonymous Artifact for CIKM 2026
 
-This repository contains the data used for the paper, "Assessing Attack Surfaces in Generative Search Engines through Publisher Attributes: A Case Study in Political Domains." The artifact is organized around the evaluation framework in the paper: question construction, user-profile prompting, GSE answer records, web-search results, and publisher-category annotations. It is a data artifact; no API keys or execution environment are required to inspect it.
+This repository contains the data used for the accompanying anonymous CIKM 2026 submission. The artifact is organized around the evaluation framework in the paper: question construction, user-profile prompting, GSE answer records, web-search results, publisher-category annotations, and figure-aligned numerical tables. It is a data artifact; no API keys or execution environment are required to inspect it.
 
 ## Repository Layout
 
@@ -19,6 +19,10 @@ data/
   publisher_annotations/
     domain_category_annotations.csv
     domain_category_prompt_template.txt
+  figure_tables/
+    values/
+    tests/
+    supplementary/
 ```
 
 ## Contents
@@ -38,10 +42,12 @@ Each record includes the prompt, generated answer text, extracted citations, cit
 
 `data/publisher_annotations/domain_category_annotations.csv` contains 1,757 domain-level publisher annotations. The columns include URL/domain, publisher category, derived content-injection barrier, topical authority, and the source of the label. `data/publisher_annotations/domain_category_prompt_template.txt` is the LLM-as-a-judge prompt template used for domain-category annotation.
 
+`data/figure_tables/` contains LaTeX tables that report the exact numerical values and statistical tests underlying the bar charts shown in the figures. `values/` stores percentage tables for citation barrier distribution, domination score distribution, and citation grounding distribution. `tests/` stores the corresponding chi-square test tables. `supplementary/` stores additional tables for Brave-vs-GSE Primary-source share correlations and WebQuery length correlations.
+
 ## Barrier Labels
 
 The artifact follows the content-injection barrier definitions used in the paper. Primary sources are official domains of the target party. Opponent sources are domains operated by other political parties. Low-barrier sources are platforms and owned sites where content can be published with little editorial oversight. Mid-barrier sources include media and non-media organizations with institutional publication processes. High-barrier sources include government and academic domains.
 
 ## Notes
 
-The released data are anonymized with respect to the authors. The artifact contains experimental inputs and outputs only; it does not include API credentials, private accounts, or code for re-querying GSE providers.
+The released data are anonymized with respect to the authors. The artifact contains experimental inputs and outputs only; it does not include author names, affiliations, local filesystem paths, API credentials, private accounts, or code for re-querying GSE providers.
