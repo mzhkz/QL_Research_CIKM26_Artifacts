@@ -21,12 +21,15 @@ data/
     domain_category_prompt_template.txt
   figure_tables/
     values/
+      values_compiled_tables.pdf
     tests/
+      tests_compiled_tables.pdf
     supplementary/
+      supplementary_compiled_tables.pdf
 ```
 
 ## Contents
-`data/question_design/marpor_axes.yaml` defines the MARPOR-based policy axes used to construct politically neutral closed-ended questions. `data/question_design/templates/us/prompts.full.json` and `data/question_design/templates/jp/prompts.full.json` contain the 33 full question templates for the U.S. and Japan. `data/question_design/templates/jp/prompts.validation.json` contains the validation subset. `data/question_design/party_targets/{us,jp}/targets.json` lists the target parties, their official domains used as primary sources, ruling/opposition status, and ideology labels.
+`data/question_design/marpor_axes.yaml` defines the MARPOR-based policy axes used to construct politically neutral closed-ended questions. `data/question_design/templates/us/prompts.full.json` and `data/question_design/templates/jp/prompts.full.json` contain the 33 full question templates for the U.S. and Japan. `data/question_design/party_targets/{us,jp}/targets.json` lists the target parties, their official domains used as primary sources, ruling/opposition status, and ideology labels.
 
 `data/user_profiles/user_profiles_and_system_prompts.yaml` contains the three user profiles embedded into the GSE system prompts: Ignorant-Neutral (stored as `unknown_unknown`), High-Conservative, and High-Progressive. These correspond to the personalization conditions described in the paper.
 
@@ -42,7 +45,7 @@ Each record includes the prompt, generated answer text, extracted citations, cit
 
 `data/publisher_annotations/domain_category_annotations.csv` contains 1,757 domain-level publisher annotations. The columns include URL/domain, publisher category, derived content-injection barrier, topical authority, and the source of the label. `data/publisher_annotations/domain_category_prompt_template.txt` is the LLM-as-a-judge prompt template used for domain-category annotation.
 
-`data/figure_tables/` contains LaTeX tables that report the exact numerical values and statistical tests underlying the bar charts shown in the figures. `values/` stores percentage tables for citation barrier distribution, domination score distribution, and citation grounding distribution. `tests/` stores the corresponding chi-square test tables. `supplementary/` stores additional tables for Brave-vs-GSE Primary-source share correlations and WebQuery length correlations.
+`data/figure_tables/` contains LaTeX tables that report the exact numerical values and statistical tests underlying the bar charts shown in the figures. `values/` stores percentage tables for citation barrier distribution, domination score distribution, citation grounding distribution, and Brave-vs-GSE Primary-source share correlations. `tests/` stores the corresponding chi-square test tables. `supplementary/` stores additional Brave-vs-GSE Primary-source share correlation tables. Each subdirectory also includes a compiled PDF bundling the tables in that folder.
 
 ## Barrier Labels
 

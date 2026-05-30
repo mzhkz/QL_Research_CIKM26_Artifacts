@@ -11,6 +11,8 @@ Definitions:
 - Government: Government agencies, legislatures, courts, ministries, local governments, public offices, and official government document repositories.
 - Non-media-industry: Corporate sites, nonprofits, general incorporated associations, industry associations, think tanks, advocacy organizations, and other non-news/non-government publishers. Include sites whose main purpose is promoting or explaining the organization's own products, services, activities, reports, or positions, even when they publish news-like posts or articles; this distinction is important when a site visually resembles media but is primarily self-publishing.
 
+URL:
+Url(c)
 Domains:
 {Whois(Url(c))}
 
